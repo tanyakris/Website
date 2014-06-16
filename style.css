@@ -1,0 +1,234 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+.navigation {
+  padding: 0;
+  margin: 0;
+  background: black;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+
+   }
+
+li {
+  float: center;
+  font-family: Arial;
+  display: inline-block;
+  padding: 15px 85px; 
+}
+
+li .selected {color: yellow; }
+
+a {
+  color: white;
+  text-decoration: none; }
+  a:hover {
+    color: #ff9999; }
+  a .navigation ul li a:hover {
+    border-bottom-color: black; }
+  @media screen and (max-width: 180px) {
+    a div.navigation ul li {
+      float: none; } }
+  a .active {
+    background-color: yellow; }
+
+
+
+.main {
+  margin-top: 30px; }
+
+.slide {
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 30px; }
+
+#slide0 {
+  background: url(../img/sky.png);
+  background-size: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: cover;
+  margin: 0 0 0; }
+  #slide0 img {
+    margin: 10% 5% auto; }
+  #slide0 .container {
+    width: 450px;
+    height: 600px;
+    background: #f8f8f8;
+    margin: 2% 35% auto;
+    border-radius: 6px;
+    opacity: 0.8; }
+    #slide0 .container h1 {
+      font-family: Coronetscript, cursive, bold;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: -10px;
+      margin-right: -40px; }
+
+    #slide0 .container p {
+          margin-right: -40px; }
+
+
+
+      img {
+         position: relative;
+        top: -40px;
+        right: -20px;
+          }
+
+  #slide0 .progress-container {
+    width: 375px;
+    height: 120px;
+    background-image: url(../img/circles.png);
+    margin: -5% auto;
+    opacity: 0.9; }
+  #slide0 .progress-placer {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    width: 150px;
+    height: 150px;
+    background: url(../img/rsz_1rsz_2bg-progressbar.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: black;
+    opacity: 0.8; }
+  #slide0 .item-number {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    width: 150px;
+    height: 150px;
+    font-size: 27px;
+    font-family: arial;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    padding-top: 5px;
+    margin-top: 35px;
+    margin-left: -10px; }
+  #slide0 .item-number:nth-child(2) {
+    margin-left: 112px; }
+  #slide0 .item-number:nth-child(3) {
+    margin-left: 235px; }
+  #slide0 .main-content {
+    width: 360px;
+    padding: 20px;
+    height: 459px;
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 10px; }
+  #slide0 .content-switcher {
+    display: none; }
+  #slide0 .content-switcher:first-child {
+    display: block; }
+
+#slide1 {
+  background: url(../img/background.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: cover;
+  display: block;
+  height: 70%; }
+  #slide1 h1 {
+    font-family: Coronetscript, cursive, bold; }
+  #slide1 div.transbox {
+    width: 500px;
+    height: 60px;
+    margin: 1% 32% auto;
+    background-color: #ffffff;
+    opacity: 0.8;
+    width: 550px;
+    height: 80px;
+    background: #f8f8f8;
+    margin: -2% 30% auto;
+    border-radius: 6px;
+    opacity: 0.9; }
+    #slide1 div.transbox h2 {
+      font-family: Arial;
+      float: center;
+      margin: 1% 5% auto; }
+    #slide1 div.transbox h4 {
+      font-family: Arial;
+      margin: 0% 5% auto; }
+    #slide1 div.transbox h5 {
+      font-family: Arial;
+      margin: 1% 5% auto; }
+  #slide1 div.transbox2 {
+    width: 1100px;
+    height: 70px;
+    margin: 1% 5% auto;
+    float: center;
+    background-color: #ffffff;
+    opacity: 0.8; }
+    #slide1 div.transbox2 h2 {
+      font-family: Arial;
+      float: center;
+      margin: 1% 5% auto; }
+    #slide1 div.transbox2 h4 {
+      font-family: Arial;
+      margin: 0% 5% auto; }
+    #slide1 div.transbox2 h5 {
+      font-family: Arial;
+      margin: 1% 5% auto; }
+
+#slide2 {
+  background: url(../img/universe.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: cover; }
+  #slide2 h1 {
+    color: gray;
+    font-family: Coronetscript, cursive, bold; }
+
+#slide3 {
+  background: url(../img/slide1/berkeley.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: cover;
+  height: 180%; }
+  #slide3 h1 {
+    font-family: Coronetscript, cursive, bold;
+    float: center;
+    margin: 1% 5% auto;
+    font-weight: bold; }
+  #slide3 div.transbox {
+    width: 950px;
+    height: 1000px;
+    background: #f8f8f8;
+    margin: 2% 13% auto;
+    border-radius: 6px;
+    opacity: 0.7; }
+    #slide3 div.transbox h2 {
+      font-family: Arial;
+      float: center;
+      margin: 1% 5% auto; }
+    #slide3 div.transbox h4 {
+      font-family: Arial;
+      margin: 0% 5% auto;
+      text-indent: 0px; }
+    #slide3 div.transbox h5 {
+      font-family: Arial;
+      margin: 1% 5% auto; }
+
+#slide4 {
+  background: gray;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: cover;
+  display: block;
+  height: 18%; 
+
+
+
+}
