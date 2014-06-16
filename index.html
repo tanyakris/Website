@@ -1,0 +1,369 @@
+<html>
+<head>
+	<title>Tanya Krishnakumar</title>
+	<meta charset="utf-8">
+	 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+	<script type="text/javascript" src='http://codeorigin.jquery.com/jquery-2.0.3.min.js'></script>
+	<script type="text/javascript" src='js/jquery.stellar.min.js'></script>
+	<script type="text/javascript" src='js/waypoints.js'></script>
+	<script type="text/javascript" src='js/jquery.easing.1.3.js'></script>
+	<script type="text/javascript" src='js/main.js'></script>
+<link type='text/css' href='css/osx.css' rel='stylesheet' media='screen' />
+<script src="jquery.fs.boxer.js"></script>
+<link href="jquery.fs.boxer.css" rel="stylesheet">
+
+
+
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script>
+		function selectStep(n) {
+			if(n == 1) {
+				$(".progress-placer").animate({marginLeft: '25px'}, 300);
+			}
+			else if (n == 2) {
+				$(".progress-placer").animate({marginLeft: '147px'}, 300);
+
+			}
+
+
+			else if (n == 3) {
+				$(".progress-placer").animate({marginLeft: '270px'}, 300);
+
+			}
+			$(".content-switcher").hide();
+			$("#Content"+n).show();
+		}
+	</script>
+
+<script> 
+$(".boxer").boxer();</script>
+
+</head>
+<body>
+
+	<div id="nav">
+		<ul class="navigation">
+			
+
+			<li data-slide="0" class="selected"><a href="#">About</a></li>
+
+			<li data-slide="1"><a href="#">Education/Experience</a></li>
+			<li data-slide="2"><a href="#">Skills</a></li>
+			<li data-slide="3"><a href="#">Projects</a></li>
+			<li data-slide="4"><a href="#">Contact</a></li>
+
+	</div>
+
+	
+
+	<div class="main">
+
+<div class="slide" id="slide0" data-slide="0" data-stellar-background-ratio='0.5'>
+			
+
+			<img src="img/rsz_tanya.png" onmouseover="this.src='img/rsz_silly.png'" onmouseout="this.src='img/rsz_tanya.png'" align="LEFT"/>
+
+								<div class="container">
+									<div class="main-content">
+									<div class="content-switcher" id="Content1" >
+
+										<h1><i>Tanya Krishnakumar </i></h1>
+
+										<p>Hi! I am a Sophomore at UC Berkeley 
+							 			studying Electrical Engineering and Computer Science. I 
+								 		 fell in love with Computer Science when I realized that I had the power and tools to create anything I wanted. I think it's absolutely amazing to think of an idea in my head and watch it come to life. I am currently interested in Artificial Intelligence and Web Development, but my interests are still broad. 
+										I am equally passionate about using Computer Science to make an impact on society, and I particularily want to focus
+										on decreasing gender-bias and 
+										sexism in the world  through education, because I strongly believe that knowledge power and power is liberating. Outside Computer Science, I love to learn about the universe and often find myself watching Neil Degrasse's or Michelle Thaller's lectures on astrophysics. I am currently working as a Research Assistant in UC Berkeley.  </p>
+
+									</div>
+
+										<div class="content-switcher" id="Content2" >
+											<h1> I like to <i> travel </i> </h1>
+											<p> I have been to 15 states in America and 7 different countries around the world. My dream is to prance around and backpack through Europe in the near future. </p> <img src="img/cities.png" />
+										</div>
+
+										<div class="content-switcher" id="Content3" >
+											<h1> I like to <i> watch </i> </h1>
+												<p> Documentaries and shows complete my life. I can (and do) watch <i> How I Met Your Mother </i> and documentaries about The Universe and Big Bang for hours. </p> <img src="img/collage.png" hspace=0 vspace=300/>
+
+
+									</div>
+								</div>
+												
+								<div class="progress-container">
+
+									<a href="#" class="item-number" onclick="selectStep(1); return false;"> 1 </a>
+
+									<a href="#" class="item-number" onclick="selectStep(2); return false;"> 2 </a>
+									<a href="#" class="item-number" onclick="selectStep(3); return false;"> 3 </a>
+
+								<div class="progress-placer">
+
+
+									</div>
+
+
+									</div>
+
+									</div>
+
+							
+</div>
+
+
+
+
+
+		<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio='0.5'>
+								<h1 align="center"> Education </h1>
+
+			<div class="transbox">
+				<h2> University of California, Berkeley </h2>
+				<h4> B.S. Electrical Engineering and Computer Science </h4>
+				<h5> <i> August 2013 - May 2017 (expected) </i> </h5>
+
+				</div>
+			</br>
+		</br>
+			<div class="transbox">
+				<h2> Hercules Middle High School </h2>
+				<h4> <i> August 2009 - May 2013  </i> </h4>
+				<h5> <i> Valedictorian </i> </h5>
+
+				</div>
+		
+		
+		<h1 align="center"> Work Experience </h1>
+
+		<div class="transbox2">
+				<h2> Research Assistant, UC Berkeley Department of Civil and Environmental Engineering </h2>
+				<h4> <i> May 2014 - present  </i> </h4>
+
+				</div>
+
+		</div>
+
+	
+
+
+<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio='0.5'>
+   			
+
+   			<h1> Programming </h1>
+   			
+<a href='#' class='osx'>
+   			<img src="img/java.png" hspace=30 vspace=50 id="logo"/> </a>
+
+   			<div id="osx-modal-content">
+			<div id="osx-modal-title">My experience with Java</div>
+			<div id="osx-modal-data">
+				<p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+				<p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+				<p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+				<p><button class="simplemodal-close">Close</button> <span></span></p>
+			</div>
+		</div>
+			
+
+<a href='#' class='osx1'>
+   			<img src="img/python.png" hspace=90 vspace=50/> </a>
+<div id="osx-modal-content1">
+			<div id="osx-modal-title1">My experience with Python</div>
+			<div class="close"><a href="#" class="simplemodal-close">x</a></div>
+			<div id="osx-modal-data1">
+				<p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+				<p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+				<p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+				<p><button class="simplemodal-close">Close</button> <span></span></p>
+			</div>
+		</div>
+
+   		   	
+
+
+
+
+
+<a href='#' class='osx2'>
+
+   		   	<img src="img/datastructures.png" hspace=90 vspace=50/> </a>
+
+<div id="osx-modal-content2">
+			<div id="osx-modal-title2">My experience with Data Structures</div>
+			<div id="osx-modal-data2">
+				<p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+				<p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+				<p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+				<p><button class="simplemodal-close">Close</button> <span></span></p>
+			</div>
+		</div>
+
+
+
+
+
+
+<a href='#' class='osx3'>
+
+   		   	<img src="img/scheme.png" hspace=50 vspace=50/> </a>
+
+   		   	<div id="osx-modal-content3">
+			<div id="osx-modal-title3">My experience with Scheme</div>
+			<div id="osx-modal-data3">
+				<p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+				<p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+				<p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+				<p><button class="simplemodal-close">Close</button> <span></span></p>
+			</div>
+		</div>
+
+
+
+   		   	 <br> 
+   		   	
+   		   	<h1> Web Development </h1>
+
+   		   	
+<a href='#' class='osx4'>
+
+   		   	<img src="img/html-css.png" hspace=90 vspace=0/> </a>
+   		   	<div id="osx-modal-content4">
+			<div id="osx-modal-title4">My experience with HTML and CSS</div>
+			<div id="osx-modal-data4">
+				<p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+				<p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+				<p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+				<p><button class="simplemodal-close">Close</button> <span></span></p>
+			</div>
+		</div>
+
+   		    
+
+<a href='#' class='osx5'>
+
+
+   		    <img src="img/javascript.png" hspace=130 vspace=20/> </a>
+
+   		      	<div id="osx-modal-content5">
+			<div id="osx-modal-title5">My experience with JavaScript</div>
+			<div id="osx-modal-data5">
+				<p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+				<p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+				<p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+				<p><button class="simplemodal-close">Close</button> <span></span></p>
+			</div>
+		</div>
+   			
+
+<a href='#' class='osx6'>
+
+
+   			<img src="img/jquery.png" hspace=70 vspace=0/> </a>
+
+   			<div id="osx-modal-content6">
+			<div id="osx-modal-title6">My experience with JQuery</div>
+			<div id="osx-modal-data6">
+				<p>SimpleModal is a lightweight jQuery Plugin which provides a powerful interface for modal dialog development. Think of it as a modal dialog framework.</p>
+				<p>SimpleModal gives you the flexibility to build whatever you can envision, while shielding you from related cross-browser issues inherent with UI development..</p>
+				<p>As you can see by this example, SimpleModal can be easily configured to behave like an OSX dialog. With a handful options, 2 custom callbacks and some styling, you have a visually appealing dialog that is ready to use!</p>
+				<p><button class="simplemodal-close">Close</button> <span></span></p>
+			</div>
+		</div>
+
+   		
+
+   		</div>
+
+   		
+		
+
+
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio='0.5'>
+				<h1 align="center"> <b> Projects </b> </h1>
+<!-- <dl>
+<dt>Coffee</dt>
+<dd>- black hot drink</dd>
+ -->
+
+
+		<div class="transbox">
+				 <br>
+				 <dl>
+<dt> <h2>∙ Hog <i>(fall 2013)</i>  </h2></dt>
+	<dd> <h4> - </h4></dd>
+
+<br> <br>
+
+
+<dt> <h2>∙ Trends <i>(fall 2013)</i>  </h2></dt>
+	<dd> <h4> - </h4></dd>
+
+<br> <br>
+
+<dt> <h2>∙ Ants <i>(fall 2013)</i>  </h2></dt>
+	<dd> <h4> - </h4></dd>
+
+<br> <br>
+
+	<dt> <h2>∙ Scheme Interpreter <i>(fall 2013)</i>  </h2></dt>
+	<dd> <h4> - </h4></dd>
+
+<br> <br>
+
+	<dt> <h2>∙ Picture Manipulator <i>(Spring 2014)</i>  </h2></dt>
+	<dd> <h4> - </h4></dd>
+
+<br> <br>
+
+	<dt> <h2>∙  Networks <i>(Spring 2014)</i>  </h2></dt>
+	<dd> <h4> - </h4></dd>
+
+<br> <br>
+
+	<dt> <h2>∙ Graphs <i>(Spring 2014)</i>  </h2></dt>
+	<dd> <h4> - </h4></dd>
+
+<br> <br>
+
+
+<dt> <h2>∙ Personal Website <i>(Spring 2014)</i>  </h2></dt>
+	<dd> <h4> - </h4></dd>
+	</div>
+
+		
+</div>
+
+
+
+		<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio='0.5'>
+
+			<a href="http://www.linkedin.com/pub/tanya-krishnakumar/8b/348/b20" target="_blank"> <img src="img/linkedin.png" margin-left:5px; vspace=10px /> </a>
+			<a href="https://www.facebook.com/tanya.krishnakumar" target="_blank"> <img src="img/facebook.png" hspace=150 vspace=0/> </a>
+			<a href="mailto:tanyakris@berkeley.edu"> <img src="img/gmail.png" hspace=125 vspace=0/> </a>
+			<a href="Resume.pdf" target="_blank"> <img src="img/resume.png" hspace=105 vspace=0 /> </a>
+
+
+
+
+
+
+
+	</div>
+</div>
+
+ 
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src ="js/bootstrap.js"></script>
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+<script type='text/javascript' src='js/osx.js'></script>
+
+
+
+</body>
+</html>
